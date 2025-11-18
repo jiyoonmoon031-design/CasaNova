@@ -72,6 +72,7 @@ python manage.py runserver
 The frontend is assumed to be in the frontend directory.
 
 
+```bash
 # Move into the frontend directory
 cd frontend
 
@@ -80,9 +81,10 @@ npm install
 
 # Start the React development server
 npm start
+```
 
 
-##🤝 How to Contribute (기여 방법)
+## 🤝 How to Contribute (기여 방법)
 We welcome contributions from everyone! All contributors must adhere to our standards to ensure a respectful and efficient workflow.
 
 Code Standards and Rules:
