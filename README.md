@@ -64,10 +64,11 @@ python manage.py migrate
 
 # Run the Django API server
 python manage.py runserver
+```
 
+#API accessible at http://localhost:8000 (preliminary Django default port)
 
-API accessible at http://localhost:8000 (preliminary Django default port)
-3-2. Frontend Server Setup (React App)
+###3-2. Frontend Server Setup (React App)
 The frontend is assumed to be in the frontend directory.
 
 
@@ -81,7 +82,7 @@ npm install
 npm start
 
 
-🤝 How to Contribute (기여 방법)
+##🤝 How to Contribute (기여 방법)
 We welcome contributions from everyone! All contributors must adhere to our standards to ensure a respectful and efficient workflow.
 
 Code Standards and Rules:
@@ -114,7 +115,7 @@ Code Contribution Guidelines: Refer to the CONTRIBUTING.md file.
 
 Expected Behavior: Refer to the CODE_OF_CONDUCT.md file.
 
-⚖️ License (라이선스)
+##⚖️ License (라이선스)
 This project is licensed under the Apache License 2.0.
 
 
