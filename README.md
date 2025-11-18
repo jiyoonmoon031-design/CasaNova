@@ -47,8 +47,68 @@ The following tools must be installed on your system:
 ### 3. Running the Development Server (서버 실행)
 
 Clone the repository and follow the two-part setup process:
+# 1. Clone the repository
+git clone https://github.com/whtjddms0714-byte/CasaNova.git
+cd CasaNova
+
+### 3-1. Backend Server Setup (Django API - Python-Based)
+Since the core logic is in the Django backend, this is the primary setup.
+
+```bash
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Setup the database
+python manage.py makemigrations
+python manage.py migrate
+
+# Run the Django API server
+python manage.py runserver
 
 
+API accessible at http://localhost:8000 (preliminary Django default port)
+3-2. Frontend Server Setup (React App)
+The frontend is assumed to be in the frontend directory.
+
+
+# Move into the frontend directory
+cd frontend
+
+# Install Node.js dependencies
+npm install
+
+# Start the React development server
+npm start
+
+
+🤝 How to Contribute (기여 방법)
+We welcome contributions from everyone! All contributors must adhere to our standards to ensure a respectful and efficient workflow.
+
+Code Standards and Rules:
+Commits: Must use the imperative mood (e.g., Add user model, not Added user model).
+
+Mandatory: Include a detailed body explaining the Why (motivation/approach) for non-trivial changes.
+
+Branch Naming: Follow the pattern: [type]/[issue-number]-[short-description] (e.g., feat/12-loan-simulator).
+
+Pull Requests (PRs):
+
+Must link the related issue (e.g., Closes #12).
+
+Require a minimum of 2 approvals from collaborators before merging.
+
+Must include accompanying unit and integration tests.
+
+Must pass all CI/CD (linting/testing) checks.
+
+Code Style (Linting)
+We enforce strict code formatting using the following tools:
+
+Backend (Python): Use Black (formatter) and Flake8 (linter).
+
+Frontend (TypeScript/React): Use ESLint (linter) and Prettier (formatter).
+
+Please refer to the detailed guidelines:
 
 Code Contribution Guidelines: Refer to the CONTRIBUTING.md file.
 
