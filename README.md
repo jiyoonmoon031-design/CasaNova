@@ -71,7 +71,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-#API accessible at http://localhost:8000 (preliminary Django default port)
+# API accessible at http://localhost:8000 (preliminary Django default port)
 
 ### 3-2. Frontend Server Setup (React App)
 The frontend is assumed to be in the frontend directory.
