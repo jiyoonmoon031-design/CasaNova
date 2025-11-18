@@ -56,6 +56,7 @@ cd CasaNova
 
 
 ### 3-1. Backend Server Setup (Django API - Python-Based)
+
 Since the core logic is in the Django backend, this is the primary setup.
 
 ```bash
@@ -72,7 +73,7 @@ python manage.py runserver
 
 #API accessible at http://localhost:8000 (preliminary Django default port)
 
-###3-2. Frontend Server Setup (React App)
+### 3-2. Frontend Server Setup (React App)
 The frontend is assumed to be in the frontend directory.
 
 
