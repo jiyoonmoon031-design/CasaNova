@@ -85,39 +85,35 @@ npm start
 
 
 ## 🤝 How to Contribute (기여 방법)
+
 We welcome contributions from everyone! All contributors must adhere to our standards to ensure a respectful and efficient workflow.
 
-Code Standards and Rules:
-Commits: Must use the imperative mood (e.g., Add user model, not Added user model).
+### Code Standards and Rules:
 
-Mandatory: Include a detailed body explaining the Why (motivation/approach) for non-trivial changes.
+* **Commits:** Must use the **imperative mood** (e.g., `Add user model`, not `Added user model`).
+* **Mandatory:** Include a detailed body explaining the **Why** (motivation/approach) for non-trivial changes.
+* **Branch Naming:** Follow the pattern: `[type]/[issue-number]-[short-description]` (e.g., `feat/12-loan-simulator`).
 
-Branch Naming: Follow the pattern: [type]/[issue-number]-[short-description] (e.g., feat/12-loan-simulator).
+### Pull Requests (PRs):
 
-Pull Requests (PRs):
+* Must link the related issue (e.g., `Closes #12`).
+* Require a **minimum of 2 approvals** from collaborators before merging.
+* Must include **accompanying unit and integration tests**.
+* Must pass all CI/CD (linting/testing) checks.
 
-Must link the related issue (e.g., Closes #12).
+### Code Style (Linting)
 
-Require a minimum of 2 approvals from collaborators before merging.
-
-Must include accompanying unit and integration tests.
-
-Must pass all CI/CD (linting/testing) checks.
-
-Code Style (Linting)
 We enforce strict code formatting using the following tools:
+* **Backend (Python):** Use **Black** (formatter) and **Flake8** (linter).
+* **Frontend (TypeScript/React):** Use **ESLint** (linter) and **Prettier** (formatter).
 
-Backend (Python): Use Black (formatter) and Flake8 (linter).
-
-Frontend (TypeScript/React): Use ESLint (linter) and Prettier (formatter).
+---
 
 Please refer to the detailed guidelines:
 
-Code Contribution Guidelines: Refer to the CONTRIBUTING.md file.
+* **Code Contribution Guidelines:** Refer to the **[CONTRIBUTING.md](CONTRIBUTING.md)** file.
+* **Expected Behavior:** Refer to the **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** file.
 
-Expected Behavior: Refer to the CODE_OF_CONDUCT.md file.
+## ⚖️ License (라이선스)
 
-##⚖️ License (라이선스)
-This project is licensed under the Apache License 2.0.
-
-
+This project is licensed under the **Apache License 2.0**.
