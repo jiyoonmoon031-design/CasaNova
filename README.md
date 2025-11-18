@@ -47,9 +47,13 @@ The following tools must be installed on your system:
 ### 3. Running the Development Server (서버 실행)
 
 Clone the repository and follow the two-part setup process:
+
+```bash
 # 1. Clone the repository
 git clone https://github.com/whtjddms0714-byte/CasaNova.git
 cd CasaNova
+```
+
 
 ### 3-1. Backend Server Setup (Django API - Python-Based)
 Since the core logic is in the Django backend, this is the primary setup.
